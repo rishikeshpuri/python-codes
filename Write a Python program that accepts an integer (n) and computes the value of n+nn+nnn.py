@@ -1,0 +1,5 @@
+n=int(input("enter an integer"))
+a=int("{}".format(n))
+b=int("{} {}".format(n,n))
+c=int("{} {} {}".format(n,n,n))
+print(a+b+c)
